@@ -1,0 +1,34 @@
+<html>
+    <head><title>表格</title></head>
+        
+    <body>
+    <!--3x3表格-->
+        <table border=7>
+            <tr><td></td><td>1</td><td></td></tr>
+            <tr><td>2</td><td>3</td><td></td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+        </table>
+    <!--3x4,2/3欄-->
+            <table border=3>
+                <tr><td></td><td colspan=2> 1</td><td>★★</td></tr>
+                <tr><td></td><td colspan=2>2 3</td><td>>▽<</td></tr>
+                <tr><td>4</td><td>5</td><td>6</td><td>？？</td></tr>
+        </table>
+
+
+    <!--rowspan3x4,1/2列2/3欄-->
+        <table border=5>
+            <tr><td rowspan=2></td><td colspan=2> 1</td><td>★★</td></tr>
+            <tr><td colspan=2>2 3</td><td>>▽<</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td><td>？？</td></tr>
+        </table>
+
+
+    <!--3x4,1/2列/,2/3欄,第三欄-->
+            <table border=5>
+            <tr><td rowspan=2></td><td colspan=2> 1</td><td colspan=2 rowspan=3>★★<p>>▽<</p><p>？？</p></td></tr>
+            <tr><td colspan=2>2 3</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+        </table>
+    </body>
+</html>
